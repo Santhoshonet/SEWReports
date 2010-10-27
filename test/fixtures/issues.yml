@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  month: 2010-10-26
+  plannedvalue: 1
+  actualcost: 9.99
+  percentage: 1
+  sitelre: 1
+  pmclre: 1
+
+two:
+  month: 2010-10-26
+  plannedvalue: 1
+  actualcost: 9.99
+  percentage: 1
+  sitelre: 1
+  pmclre: 1

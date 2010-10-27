@@ -1,0 +1,36 @@
+ <% form_for(@milestone) do |f| %>
+   <table cellspacing="0" cellpadding="0" class="edit-table">
+    <tr class="new-item form error" style='display:none;'>
+        <td colspan="4">
+            <div class="error">
+                <%= flash[:error] %>
+                <%= f.error_messages %>
+            </div>
+        </td>
+    </tr>
+    <tr class="new-item form">
+        <td class="data-entry" colspan="2">
+            <%= f.label :month %>
+            <%= f.text_field :month ,:class => "medium monthField" %>
+        </td>
+        <td class="data-entry" colspan="2">
+            <%= f.label :build %>
+            <%= f.text_field :build , :class => "medium buildField" %>
+        </td>
+    </tr>
+    <tr class="new-item form">
+        <td class="data-entry" colspan="2">
+            <%= f.label :unbuild %>
+            <%= f.text_field :unbuild , :class => "medium unbuildField"%>
+        </td>
+        <td class="data-entry" colspan="2">
+          
+        </td>
+    </tr>
+    <tr>
+        <td class="submit" colspan="2">
+            <button class='BtnEditMilestone' mlsid=<%= @milestone.id %>>Edit project</button> or <a href="#" class="CancelEditMilestone">Cancel</a>
+        </td>
+    </tr>
+   </table>
+  <% end %>

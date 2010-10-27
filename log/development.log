@@ -1,0 +1,1431 @@
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 01:58:05) [GET]
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (0.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 40ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 01:58:21) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (0.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 01:58:23) [GET]
+  [4;36;1mProjectPerformance Load (2.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (0.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 26ms (View: 9, DB: 2) | 200 OK [http://localhost/project_performances]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 01:58:33) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 8, DB: 5) | 200 OK [http://localhost/issues]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 01:58:53) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (0.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 29ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:00:13) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (0.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 101ms (View: 79, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#create (for 127.0.0.1 at 2010-10-28 02:00:25) [POST]
+  Parameters: {"authenticity_token"=>"o2ygDidIgdohCfAlmrUDHmPsP0oQ8N9rWgWMe4y4n7A=", "issue"=>{"month"=>"01-01-2010", "active"=>"5", "closed"=>"7"}}
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-01-01') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "issues" ("month", "active", "closed", "created_at", "updated_at") VALUES('2010-01-01', 5, 7.0, '2010-10-27 20:30:25.760460', '2010-10-27 20:30:25.760460') RETURNING "id"[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/issues/1
+Completed in 24ms (DB: 4) | 302 Found [http://localhost/issues]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#show (for 127.0.0.1 at 2010-10-28 02:00:25) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, edit, index, and update):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:01:15) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+
+ActionView::TemplateError (undefined method `id' for #<Array:0x70c1d60>) on line #22 of app/views/issues/index.html.erb:
+19:                             <td><%=h issue.month.strftime("%b - %Y") %></td>
+20: 						    <td><%=h issue.active %></td>
+21:                             <td><%=h issue.closed %></td>
+22:                             <td class="actions" issueid='<%= @issues.id %>'><%= link_to 'Edit',edit_issue_path(@issues),:class => "edit" %></td>
+23: 					    </tr>
+24:                     <% end %>
+25:                    <tr class="new-item">
+
+    app/views/issues/index.html.erb:22:in `block in _run_erb_app47views47issues47index46html46erb'
+    app/views/issues/index.html.erb:13:in `each'
+    app/views/issues/index.html.erb:13:in `each_with_index'
+    app/views/issues/index.html.erb:13
+    app/controllers/issues_controller.rb:14:in `index'
+    <internal:prelude>:8:in `synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (87.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:01:39) [GET]
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (0.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 88ms (View: 67, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#create (for 127.0.0.1 at 2010-10-28 02:01:51) [POST]
+  Parameters: {"authenticity_token"=>"o2ygDidIgdohCfAlmrUDHmPsP0oQ8N9rWgWMe4y4n7A=", "issue"=>{"month"=>"02-02-2010", "active"=>"8", "closed"=>"7"}}
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-02-02') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "issues" ("month", "active", "closed", "created_at", "updated_at") VALUES('2010-02-02', 8, 7.0, '2010-10-27 20:31:51.329354', '2010-10-27 20:31:51.329354') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/issues?notice=Issue+was+successfully+created.
+Completed in 19ms (DB: 3) | 302 Found [http://localhost/issues]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:01:51) [GET]
+  Parameters: {"notice"=>"Issue was successfully created."}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+
+ActionView::TemplateError (edit_issue_url failed to generate from {:controller=>"issues", :action=>"edit", :id=>[#<Issue id: 1, month: "2010-01-01", active: 5, closed: #<BigDecimal:72e72e0,'0.7E1',4(8)>, created_at: "2010-10-27 20:30:25", updated_at: "2010-10-27 20:30:25">, #<Issue id: 2, month: "2010-02-02", active: 8, closed: #<BigDecimal:72e2560,'0.7E1',4(8)>, created_at: "2010-10-27 20:31:51", updated_at: "2010-10-27 20:31:51">]}, expected: {:controller=>"issues", :action=>"edit"}, diff: {:id=>[#<Issue id: 1, month: "2010-01-01", active: 5, closed: #<BigDecimal:72ddb20,'0.7E1',4(8)>, created_at: "2010-10-27 20:30:25", updated_at: "2010-10-27 20:30:25">, #<Issue id: 2, month: "2010-02-02", active: 8, closed: #<BigDecimal:72da960,'0.7E1',4(8)>, created_at: "2010-10-27 20:31:51", updated_at: "2010-10-27 20:31:51">]}) on line #22 of app/views/issues/index.html.erb:
+19:                             <td><%=h issue.month.strftime("%b - %Y") %></td>
+20: 						    <td><%=h issue.active %></td>
+21:                             <td><%=h issue.closed %></td>
+22:                             <td class="actions" issueid='<%= issue.id %>'><%= link_to 'Edit',edit_issue_path(@issues),:class => "edit" %></td>
+23: 					    </tr>
+24:                     <% end %>
+25:                    <tr class="new-item">
+
+    (eval):17:in `edit_issue_path'
+    app/views/issues/index.html.erb:22:in `block in _run_erb_app47views47issues47index46html46erb'
+    app/views/issues/index.html.erb:13:in `each'
+    app/views/issues/index.html.erb:13:in `each_with_index'
+    app/views/issues/index.html.erb:13
+    app/controllers/issues_controller.rb:14:in `index'
+    <internal:prelude>:8:in `synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:02:37) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (0.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 46ms (View: 24, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#create (for 127.0.0.1 at 2010-10-28 02:02:49) [POST]
+  Parameters: {"authenticity_token"=>"o2ygDidIgdohCfAlmrUDHmPsP0oQ8N9rWgWMe4y4n7A=", "issue"=>{"month"=>"03-02-2010", "active"=>"8", "closed"=>"7"}}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-02-03') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO "issues" ("month", "active", "closed", "created_at", "updated_at") VALUES('2010-02-03', 8, 7.0, '2010-10-27 20:32:49.975709', '2010-10-27 20:32:49.975709') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/issues?notice=Issue+was+successfully+created.
+Completed in 66ms (DB: 3) | 302 Found [http://localhost/issues]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:02:50) [GET]
+  Parameters: {"notice"=>"Issue was successfully created."}
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 28ms (View: 8, DB: 4) | 200 OK [http://localhost/issues?notice=Issue+was+successfully+created.]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:03:12) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 22ms (View: 13, DB: 2) | 200 OK [http://localhost/issues/2/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:03:50) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 7182ms (View: 7161, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:04:00) [GET]
+  Parameters: {"_"=>"1288211640614", "id"=>"2"}
+  [4;35;1mIssue Load (0.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/issues/2/edit?_=1288211640614]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#update (for 127.0.0.1 at 2010-10-28 02:04:04) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "issue"=>{"month"=>"2010-03-02", "active"=>"8", "closed"=>"7.0"}, "id"=>"2"}
+  [4;35;1mIssue Load (0.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-03-02' AND "issues".id <> 2) LIMIT 1[0m
+  [4;36;1mIssue Update (1.0ms)[0m   [0;1mUPDATE "issues" SET "month" = '2010-03-02', "updated_at" = '2010-10-27 20:34:04.862992' WHERE "id" = 2[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  app/controllers/issues_controller.rb:53:in `update'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (65.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:06:21) [GET]
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 30ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:06:22) [GET]
+  Parameters: {"_"=>"1288211782798", "id"=>"2"}
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/issues/2/edit?_=1288211782798]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#update (for 127.0.0.1 at 2010-10-28 02:06:25) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "issue"=>{"month"=>"2010-03-02", "active"=>"8", "closed"=>"7.0"}, "id"=>"2"}
+  [4;35;1mIssue Load (0.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-03-02' AND "issues".id <> 2) LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Rendering issues/update
+Completed in 24ms (View: 8, DB: 3) | 200 OK [http://localhost/issues/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:06:31) [GET]
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 29ms (View: 10, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:06:33) [GET]
+  Parameters: {"_"=>"1288211793846", "id"=>"1"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/issues/1/edit?_=1288211793846]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#update (for 127.0.0.1 at 2010-10-28 02:06:44) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "issue"=>{"month"=>"2010-01-01", "active"=>"5", "closed"=>"7.0"}, "id"=>"1"}
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-01-01' AND "issues".id <> 1) LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Rendering issues/update
+Completed in 15ms (View: 1, DB: 2) | 200 OK [http://localhost/issues/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:06:45) [GET]
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:06:47) [GET]
+  Parameters: {"_"=>"1288211807775", "id"=>"1"}
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 14ms (View: 4, DB: 2) | 200 OK [http://localhost/issues/1/edit?_=1288211807775]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:07:52) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (0.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 74ms (View: 52, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:07:54) [GET]
+  Parameters: {"_"=>"1288211874343", "id"=>"2"}
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 14ms (View: 3, DB: 2) | 200 OK [http://localhost/issues/2/edit?_=1288211874343]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#update (for 127.0.0.1 at 2010-10-28 02:07:56) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "issue"=>{"month"=>"2010-03-02", "active"=>"8", "closed"=>"7.0"}, "id"=>"2"}
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-03-02' AND "issues".id <> 2) LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Rendering issues/update
+Completed in 15ms (View: 1, DB: 2) | 200 OK [http://localhost/issues/update/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:07:57) [GET]
+  Parameters: {"_"=>"1288211877638", "id"=>"1"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/issues/1/edit?_=1288211877638]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#update (for 127.0.0.1 at 2010-10-28 02:08:03) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "issue"=>{"month"=>"2010-01-01", "active"=>"5", "closed"=>"8.0"}, "id"=>"1"}
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-01-01' AND "issues".id <> 1) LIMIT 1[0m
+  [4;35;1mIssue Update (0.0ms)[0m   [0mUPDATE "issues" SET "closed" = 8.0, "updated_at" = '2010-10-27 20:38:03.738655' WHERE "id" = 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Rendering issues/update
+Completed in 16ms (View: 0, DB: 3) | 200 OK [http://localhost/issues/update/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:08:06) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 30ms (View: 9, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:08:08) [GET]
+  Parameters: {"_"=>"1288211888277", "id"=>"3"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 3) [0m
+Rendering issues/edit
+Completed in 14ms (View: 4, DB: 2) | 200 OK [http://localhost/issues/3/edit?_=1288211888277]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#update (for 127.0.0.1 at 2010-10-28 02:08:11) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "issue"=>{"month"=>"2010-02-03", "active"=>"9", "closed"=>"7.0"}, "id"=>"3"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT "issues".id FROM "issues" WHERE ("issues"."month" = '2010-02-03' AND "issues".id <> 3) LIMIT 1[0m
+  [4;35;1mIssue Update (0.0ms)[0m   [0mUPDATE "issues" SET "active" = 9, "updated_at" = '2010-10-27 20:38:11.108076' WHERE "id" = 3[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Rendering issues/update
+Completed in 16ms (View: 1, DB: 3) | 200 OK [http://localhost/issues/update/3]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:08:51) [GET]
+  Parameters: {"_"=>"1288211931686", "id"=>"2"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 14ms (View: 4, DB: 2) | 200 OK [http://localhost/issues/2/edit?_=1288211931686]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:08:54) [GET]
+  Parameters: {"_"=>"1288211934710", "id"=>"1"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/issues/1/edit?_=1288211934710]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:09:35) [GET]
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 30ms (View: 9, DB: 4) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:09:36) [GET]
+  Parameters: {"_"=>"1288211976806", "id"=>"2"}
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/issues/2/edit?_=1288211976806]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:09:37) [GET]
+  Parameters: {"_"=>"1288211977623", "id"=>"1"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 14ms (View: 5, DB: 2) | 200 OK [http://localhost/issues/1/edit?_=1288211977623]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:09:39) [GET]
+  Parameters: {"_"=>"1288211979734", "id"=>"3"}
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 3) [0m
+Rendering issues/edit
+Completed in 15ms (View: 4, DB: 0) | 200 OK [http://localhost/issues/3/edit?_=1288211979734]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:09:43) [GET]
+  Parameters: {"_"=>"1288211983678", "id"=>"1"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/issues/1/edit?_=1288211983678]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:09:45) [GET]
+  Parameters: {"_"=>"1288211984966", "id"=>"2"}
+  [4;36;1mIssue Load (0.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 13ms (View: 3, DB: 2) | 200 OK [http://localhost/issues/2/edit?_=1288211984966]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:09:49) [GET]
+  Parameters: {"_"=>"1288211989318", "id"=>"3"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 3) [0m
+Rendering issues/edit
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/issues/3/edit?_=1288211989318]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:09:54) [GET]
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 48ms (View: 32, DB: 3) | 200 OK [http://localhost/project_performances]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#create (for 127.0.0.1 at 2010-10-28 02:10:15) [POST]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "project_performance"=>{"month"=>"01-01-2010", "pv"=>"4", "lrecontract"=>"6", "lrepmc"=>"7", "contractindex"=>"7", "cpi"=>"7", "spi"=>"3"}}
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT "project_performances".id FROM "project_performances" WHERE ("project_performances"."month" = '2010-01-01') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "project_performances" ("month", "pv", "lrecontract", "lrepmc", "contractindex", "cpi", "spi", "created_at", "updated_at") VALUES('2010-01-01', 4, 6, 7, 7.0, 7.0, 3.0, '2010-10-27 20:40:15.174173', '2010-10-27 20:40:15.174173') RETURNING "id"[0m
+  [4;36;1mSQL (25.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/project_performances?id=1
+Completed in 47ms (DB: 28) | 302 Found [http://localhost/project_performances]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:10:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 26ms (View: 10, DB: 2) | 200 OK [http://localhost/project_performances?id=1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#create (for 127.0.0.1 at 2010-10-28 02:10:33) [POST]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "project_performance"=>{"month"=>"02-01-2010", "pv"=>"7", "lrecontract"=>"9", "lrepmc"=>"6", "contractindex"=>"6", "cpi"=>"6", "spi"=>"3"}}
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT "project_performances".id FROM "project_performances" WHERE ("project_performances"."month" = '2010-01-02') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "project_performances" ("month", "pv", "lrecontract", "lrepmc", "contractindex", "cpi", "spi", "created_at", "updated_at") VALUES('2010-01-02', 7, 9, 6, 6.0, 6.0, 3.0, '2010-10-27 20:40:33.279208', '2010-10-27 20:40:33.279208') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/project_performances?id=2
+Completed in 22ms (DB: 3) | 302 Found [http://localhost/project_performances]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:10:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 26ms (View: 9, DB: 2) | 200 OK [http://localhost/project_performances?id=2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#edit (for 127.0.0.1 at 2010-10-28 02:10:35) [GET]
+  Parameters: {"_"=>"1288212035198", "id"=>"1"}
+  [4;35;1mProjectPerformance Load (0.0ms)[0m   [0mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 1) [0m
+Rendering project_performances/edit
+Completed in 25ms (View: 14, DB: 0) | 200 OK [http://localhost/project_performances/1/edit?_=1288212035198]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#update (for 127.0.0.1 at 2010-10-28 02:10:39) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "project_performance"=>{"month"=>"2010-01-01", "pv"=>"4", "lrecontract"=>"6", "lrepmc"=>"6", "contractindex"=>"7", "cpi"=>"7", "spi"=>"3"}, "id"=>"1"}
+  [4;35;1mProjectPerformance Load (0.0ms)[0m   [0mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProjectPerformance Load (1.0ms)[0m   [0mSELECT "project_performances".id FROM "project_performances" WHERE ("project_performances"."month" = '2010-01-01' AND "project_performances".id <> 1) LIMIT 1[0m
+  [4;36;1mProjectPerformance Update (0.0ms)[0m   [0;1mUPDATE "project_performances" SET "lrepmc" = 6, "updated_at" = '2010-10-27 20:40:39.031537' WHERE "id" = 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Rendering project_performances/update
+Completed in 24ms (View: 7, DB: 2) | 200 OK [http://localhost/project_performances/update/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:10:41) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProjectPerformance Load (2.0ms)[0m   [0mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;36;1mMilestone Load (1.0ms)[0m   [0;1mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 26ms (View: 9, DB: 3) | 200 OK [http://localhost/project_performances?id=2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#edit (for 127.0.0.1 at 2010-10-28 02:10:43) [GET]
+  Parameters: {"_"=>"1288212043637", "id"=>"1"}
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 1) [0m
+Rendering project_performances/edit
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/project_performances/1/edit?_=1288212043637]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#update (for 127.0.0.1 at 2010-10-28 02:10:48) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "project_performance"=>{"month"=>"2010-01-01", "pv"=>"4", "lrecontract"=>"6", "lrepmc"=>"6", "contractindex"=>"4", "cpi"=>"7", "spi"=>"3"}, "id"=>"1"}
+  [4;36;1mProjectPerformance Load (0.0ms)[0m   [0;1mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 1) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT "project_performances".id FROM "project_performances" WHERE ("project_performances"."month" = '2010-01-01' AND "project_performances".id <> 1) LIMIT 1[0m
+  [4;35;1mProjectPerformance Update (1.0ms)[0m   [0mUPDATE "project_performances" SET "contractindex" = 4.0, "updated_at" = '2010-10-27 20:40:48.331069' WHERE "id" = 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Rendering project_performances/update
+Completed in 68ms (View: 1, DB: 3) | 200 OK [http://localhost/project_performances/update/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:10:50) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProjectPerformance Load (2.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 25ms (View: 9, DB: 3) | 200 OK [http://localhost/project_performances?id=2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#edit (for 127.0.0.1 at 2010-10-28 02:10:56) [GET]
+  Parameters: {"_"=>"1288212056790", "id"=>"2"}
+  [4;35;1mProjectPerformance Load (1.0ms)[0m   [0mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 2) [0m
+Rendering project_performances/edit
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/project_performances/2/edit?_=1288212056790]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#edit (for 127.0.0.1 at 2010-10-28 02:10:58) [GET]
+  Parameters: {"_"=>"1288212058623", "id"=>"1"}
+  [4;35;1mProjectPerformance Load (1.0ms)[0m   [0mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 1) [0m
+Rendering project_performances/edit
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/project_performances/1/edit?_=1288212058623]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:11:29) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProjectPerformance Load (2.0ms)[0m   [0mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;36;1mMilestone Load (0.0ms)[0m   [0;1mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 26ms (View: 10, DB: 3) | 200 OK [http://localhost/project_performances?id=2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#edit (for 127.0.0.1 at 2010-10-28 02:11:32) [GET]
+  Parameters: {"_"=>"1288212092039", "id"=>"2"}
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 2) [0m
+Rendering project_performances/edit
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/project_performances/2/edit?_=1288212092039]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#edit (for 127.0.0.1 at 2010-10-28 02:11:33) [GET]
+  Parameters: {"_"=>"1288212093078", "id"=>"1"}
+  [4;36;1mProjectPerformance Load (1.0ms)[0m   [0;1mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 1) [0m
+Rendering project_performances/edit
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/project_performances/1/edit?_=1288212093078]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:11:55) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProjectPerformance Load (2.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 27ms (View: 10, DB: 4) | 200 OK [http://localhost/project_performances?id=2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#edit (for 127.0.0.1 at 2010-10-28 02:12:01) [GET]
+  Parameters: {"_"=>"1288212121630", "id"=>"1"}
+  [4;35;1mProjectPerformance Load (0.0ms)[0m   [0mSELECT * FROM "project_performances" WHERE ("project_performances"."id" = 1) [0m
+Rendering project_performances/edit
+Completed in 58ms (View: 48, DB: 1) | 200 OK [http://localhost/project_performances/1/edit?_=1288212121630]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#create (for 127.0.0.1 at 2010-10-28 02:12:17) [POST]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "milestone"=>{"month"=>"01-01-2010", "build"=>"3", "unbuild"=>"3"}}
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mMilestone Load (1.0ms)[0m   [0;1mSELECT "milestones".id FROM "milestones" WHERE ("milestones"."month" = '2010-01-01') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "milestones" ("month", "build", "unbuild", "created_at", "updated_at") VALUES('2010-01-01', 3, 3, '2010-10-27 20:42:17.258155', '2010-10-27 20:42:17.258155') RETURNING "id"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/project_performances
+Completed in 22ms (DB: 3) | 302 Found [http://localhost/milestones]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:12:17) [GET]
+  [4;36;1mProjectPerformance Load (2.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 26ms (View: 10, DB: 4) | 200 OK [http://localhost/project_performances]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#create (for 127.0.0.1 at 2010-10-28 02:12:28) [POST]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "milestone"=>{"month"=>"02-02-2010", "build"=>"8", "unbuild"=>"7"}}
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mMilestone Load (0.0ms)[0m   [0;1mSELECT "milestones".id FROM "milestones" WHERE ("milestones"."month" = '2010-02-02') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "milestones" ("month", "build", "unbuild", "created_at", "updated_at") VALUES('2010-02-02', 8, 7, '2010-10-27 20:42:28.098775', '2010-10-27 20:42:28.098775') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/project_performances
+Completed in 20ms (DB: 3) | 302 Found [http://localhost/milestones]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:12:28) [GET]
+  [4;36;1mProjectPerformance Load (2.0ms)[0m   [0;1mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 25ms (View: 10, DB: 4) | 200 OK [http://localhost/project_performances]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#edit (for 127.0.0.1 at 2010-10-28 02:12:30) [GET]
+  Parameters: {"_"=>"1288212150110", "id"=>"1"}
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 1) [0m
+Rendering milestones/edit
+Completed in 29ms (View: 19, DB: 2) | 200 OK [http://localhost/milestones/1/edit?_=1288212150110]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#update (for 127.0.0.1 at 2010-10-28 02:12:34) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "milestone"=>{"month"=>"2010-01-01", "build"=>"3", "unbuild"=>"5"}, "id"=>"1"}
+  [4;35;1mMilestone Load (0.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT "milestones".id FROM "milestones" WHERE ("milestones"."month" = '2010-01-01' AND "milestones".id <> 1) LIMIT 1[0m
+  [4;36;1mMilestone Update (0.0ms)[0m   [0;1mUPDATE "milestones" SET "unbuild" = 5, "updated_at" = '2010-10-27 20:42:34.349133' WHERE "id" = 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Rendering milestones/update
+Completed in 23ms (View: 7, DB: 3) | 200 OK [http://localhost/milestones/update/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#edit (for 127.0.0.1 at 2010-10-28 02:12:36) [GET]
+  Parameters: {"_"=>"1288212156462", "id"=>"1"}
+  [4;35;1mMilestone Load (0.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 1) [0m
+Rendering milestones/edit
+Completed in 21ms (View: 10, DB: 1) | 200 OK [http://localhost/milestones/1/edit?_=1288212156462]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#update (for 127.0.0.1 at 2010-10-28 02:12:39) [PUT]
+  Parameters: {"authenticity_token"=>"eVuzuSnxhL+6w1KzTmAj/VKjYERXMmh+1+kY2zd0hHI=", "milestone"=>{"month"=>"2010-01-01", "build"=>"4", "unbuild"=>"5"}, "id"=>"1"}
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT "milestones".id FROM "milestones" WHERE ("milestones"."month" = '2010-01-01' AND "milestones".id <> 1) LIMIT 1[0m
+  [4;36;1mMilestone Update (0.0ms)[0m   [0;1mUPDATE "milestones" SET "build" = 4, "updated_at" = '2010-10-27 20:42:39.480426' WHERE "id" = 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Rendering milestones/update
+Completed in 16ms (View: 1, DB: 3) | 200 OK [http://localhost/milestones/update/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#edit (for 127.0.0.1 at 2010-10-28 02:12:40) [GET]
+  Parameters: {"_"=>"1288212160526", "id"=>"1"}
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 1) [0m
+Rendering milestones/edit
+Completed in 22ms (View: 10, DB: 2) | 200 OK [http://localhost/milestones/1/edit?_=1288212160526]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#edit (for 127.0.0.1 at 2010-10-28 02:12:42) [GET]
+  Parameters: {"_"=>"1288212162574", "id"=>"2"}
+  [4;35;1mMilestone Load (0.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 2) [0m
+Rendering milestones/edit
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://localhost/milestones/2/edit?_=1288212162574]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#edit (for 127.0.0.1 at 2010-10-28 02:12:44) [GET]
+  Parameters: {"_"=>"1288212164742", "id"=>"1"}
+  [4;35;1mMilestone Load (1.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 1) [0m
+Rendering milestones/edit
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://localhost/milestones/1/edit?_=1288212164742]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MilestonesController#edit (for 127.0.0.1 at 2010-10-28 02:12:46) [GET]
+  Parameters: {"_"=>"1288212166222", "id"=>"2"}
+  [4;35;1mMilestone Load (0.0ms)[0m   [0mSELECT * FROM "milestones" WHERE ("milestones"."id" = 2) [0m
+Rendering milestones/edit
+Completed in 20ms (View: 10, DB: 1) | 200 OK [http://localhost/milestones/2/edit?_=1288212166222]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:12:52) [GET]
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 9, DB: 3) | 200 OK [http://localhost/issues]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:21:18) [GET]
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 30ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:22:27) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 10, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 02:22:30) [GET]
+  [4;35;1mProjectPerformance Load (1.0ms)[0m   [0mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;36;1mMilestone Load (0.0ms)[0m   [0;1mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 77ms (View: 60, DB: 1) | 200 OK [http://localhost/project_performances]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:22:39) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 9, DB: 3) | 200 OK [http://localhost/issues]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:24:58) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 32ms (View: 8, DB: 4) | 200 OK [http://localhost/issues]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:25:45) [GET]
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 28ms (View: 8, DB: 3) | 200 OK [http://localhost/issues]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:27:11) [GET]
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 33ms (View: 10, DB: 4) | 200 OK [http://localhost/issues]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:28:56) [GET]
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:30:03) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (0.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 75ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:35:16) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 35ms (View: 10, DB: 3) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:35:21) [GET]
+  Parameters: {"_"=>"1288213521309", "id"=>"1"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/issues/1/edit?_=1288213521309]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:35:23) [GET]
+  Parameters: {"_"=>"1288213523710", "id"=>"2"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 14ms (View: 4, DB: 2) | 200 OK [http://localhost/issues/2/edit?_=1288213523710]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 02:35:26) [GET]
+  Parameters: {"_"=>"1288213526717", "id"=>"3"}
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" WHERE ("issues"."id" = 3) [0m
+Rendering issues/edit
+Completed in 14ms (View: 4, DB: 2) | 200 OK [http://localhost/issues/3/edit?_=1288213526717]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#create (for 127.0.0.1 at 2010-10-28 02:35:44) [POST]
+  Parameters: {"authenticity_token"=>"jEiL2dm5BD8Bu032K6eX2rNY22VlsEj4h73dKpKiO94=", "risk"=>{"month"=>"01-02-2010", "active"=>"4", "closed"=>"7"}}
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT "risks".id FROM "risks" WHERE ("risks"."month" = '2010-02-01') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "risks" ("month", "active", "closed", "created_at", "updated_at") VALUES('2010-02-01', 4, 7, '2010-10-27 21:05:44.999674', '2010-10-27 21:05:44.999674') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/issues
+Completed in 21ms (DB: 4) | 302 Found [http://localhost/risks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:35:45) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 33ms (View: 10, DB: 4) | 200 OK [http://localhost/issues]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#create (for 127.0.0.1 at 2010-10-28 02:36:01) [POST]
+  Parameters: {"authenticity_token"=>"jEiL2dm5BD8Bu032K6eX2rNY22VlsEj4h73dKpKiO94=", "risk"=>{"month"=>"03-02-2010", "active"=>"8", "closed"=>"6"}}
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT "risks".id FROM "risks" WHERE ("risks"."month" = '2010-02-03') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO "risks" ("month", "active", "closed", "created_at", "updated_at") VALUES('2010-02-03', 8, 6, '2010-10-27 21:06:01.482616', '2010-10-27 21:06:01.482616') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/issues
+Completed in 21ms (DB: 3) | 302 Found [http://localhost/risks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:36:01) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 75ms (View: 10, DB: 5) | 200 OK [http://localhost/issues]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#create (for 127.0.0.1 at 2010-10-28 02:36:13) [POST]
+  Parameters: {"authenticity_token"=>"jEiL2dm5BD8Bu032K6eX2rNY22VlsEj4h73dKpKiO94=", "risk"=>{"month"=>"03-02-09", "active"=>"6", "closed"=>"9"}}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT "risks".id FROM "risks" WHERE ("risks"."month" = '0003-02-09') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "risks" ("month", "active", "closed", "created_at", "updated_at") VALUES('0003-02-09', 6, 9, '2010-10-27 21:06:13.289292', '2010-10-27 21:06:13.289292') RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/issues
+Completed in 20ms (DB: 3) | 302 Found [http://localhost/risks]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:36:13) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 32ms (View: 10, DB: 5) | 200 OK [http://localhost/issues]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#create (for 127.0.0.1 at 2010-10-28 02:36:23) [POST]
+  Parameters: {"authenticity_token"=>"jEiL2dm5BD8Bu032K6eX2rNY22VlsEj4h73dKpKiO94=", "risk"=>{"month"=>"03-03-2010", "active"=>"5", "closed"=>"9"}}
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT "risks".id FROM "risks" WHERE ("risks"."month" = '2010-03-03') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "risks" ("month", "active", "closed", "created_at", "updated_at") VALUES('2010-03-03', 5, 9, '2010-10-27 21:06:23.617882', '2010-10-27 21:06:23.617882') RETURNING "id"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/issues
+Completed in 21ms (DB: 3) | 302 Found [http://localhost/risks]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:36:23) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 32ms (View: 10, DB: 3) | 200 OK [http://localhost/issues]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#edit (for 127.0.0.1 at 2010-10-28 02:36:34) [GET]
+  Parameters: {"_"=>"1288213594150", "id"=>"1"}
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" WHERE ("risks"."id" = 1) [0m
+Rendering risks/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #31 of app/views/risks/edit.html.erb:
+28:     </tr>
+29:     <tr>
+30:         <td class="submit" colspan="2">
+31:             <button class='BtnEditRisk' riskid=<%= @issue.id %>>Edit risk</button> or <a href="#" class="CancelEditRisk">Cancel</a>
+32:         </td>
+33:     </tr>
+34:    </table>
+
+    app/views/risks/edit.html.erb:31:in `block in _run_erb_app47views47risks47edit46html46erb'
+    app/views/risks/edit.html.erb:1
+    app/controllers/risks_controller.rb:6:in `edit'
+    <internal:prelude>:8:in `synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (120.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#edit (for 127.0.0.1 at 2010-10-28 02:36:59) [GET]
+  Parameters: {"_"=>"1288213619093", "id"=>"3"}
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" WHERE ("risks"."id" = 3) [0m
+Rendering risks/edit
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://localhost/risks/3/edit?_=1288213619093]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#update (for 127.0.0.1 at 2010-10-28 02:37:05) [PUT]
+  Parameters: {"authenticity_token"=>"jEiL2dm5BD8Bu032K6eX2rNY22VlsEj4h73dKpKiO94=", "risk"=>{"month"=>"2003-02-09", "active"=>"6", "closed"=>"9"}, "id"=>"3"}
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" WHERE ("risks"."id" = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT "risks".id FROM "risks" WHERE ("risks"."month" = '2003-02-09' AND "risks".id <> 3) LIMIT 1[0m
+  [4;35;1mRisk Update (1.0ms)[0m   [0mUPDATE "risks" SET "month" = '2003-02-09', "updated_at" = '2010-10-27 21:07:05.893300' WHERE "id" = 3[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Rendering risks/update
+Completed in 23ms (View: 8, DB: 3) | 200 OK [http://localhost/risks/update/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:37:11) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 33ms (View: 11, DB: 3) | 200 OK [http://localhost/issues]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#edit (for 127.0.0.1 at 2010-10-28 02:37:14) [GET]
+  Parameters: {"_"=>"1288213634142", "id"=>"4"}
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" WHERE ("risks"."id" = 4) [0m
+Rendering risks/edit
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/risks/4/edit?_=1288213634142]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing RisksController#update (for 127.0.0.1 at 2010-10-28 02:37:31) [PUT]
+  Parameters: {"authenticity_token"=>"jEiL2dm5BD8Bu032K6eX2rNY22VlsEj4h73dKpKiO94=", "risk"=>{"month"=>"2010-01-03", "active"=>"5", "closed"=>"9"}, "id"=>"4"}
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" WHERE ("risks"."id" = 4) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT "risks".id FROM "risks" WHERE ("risks"."month" = '2010-01-03' AND "risks".id <> 4) LIMIT 1[0m
+  [4;35;1mRisk Update (0.0ms)[0m   [0mUPDATE "risks" SET "month" = '2010-01-03', "updated_at" = '2010-10-27 21:07:31.873786' WHERE "id" = 4[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Rendering risks/update
+Completed in 17ms (View: 1, DB: 2) | 200 OK [http://localhost/risks/update/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:49:20) [GET]
+  [4;36;1mIssue Load (1.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (0.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (1.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 48ms (View: 26, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:52:40) [GET]
+  [4;36;1mIssue Load (2.0ms)[0m   [0;1mSELECT * FROM "issues" ORDER BY id[0m
+  [4;35;1mRisk Load (1.0ms)[0m   [0mSELECT * FROM "risks" ORDER BY id[0m
+  [4;36;1mQualityhscindex Load (0.0ms)[0m   [0;1mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 47ms (View: 25, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:57:37) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (0.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 6865ms (View: 6839, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:58:31) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (0.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 73ms (View: 9, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:58:52) [GET]
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 37ms (View: 11, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:59:05) [GET]
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 31ms (View: 10, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:59:16) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 34ms (View: 10, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2010-10-28 02:59:54) [GET]
+  [4;35;1mIssue Load (2.0ms)[0m   [0mSELECT * FROM "issues" ORDER BY id[0m
+  [4;36;1mRisk Load (1.0ms)[0m   [0;1mSELECT * FROM "risks" ORDER BY id[0m
+  [4;35;1mQualityhscindex Load (1.0ms)[0m   [0mSELECT * FROM "qualityhscindices" ORDER BY id[0m
+Rendering template within layouts/issues
+Rendering issues/index
+Completed in 34ms (View: 10, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 03:00:09) [GET]
+  Parameters: {"_"=>"1288215009494", "id"=>"2"}
+  [4;35;1mIssue Load (0.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 23ms (View: 12, DB: 0) | 200 OK [http://localhost/issues/2/edit?_=1288215009494]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 03:00:12) [GET]
+  Parameters: {"_"=>"1288215012789", "id"=>"1"}
+  [4;35;1mIssue Load (0.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 1) [0m
+Rendering issues/edit
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/issues/1/edit?_=1288215012789]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing IssuesController#edit (for 127.0.0.1 at 2010-10-28 03:00:19) [GET]
+  Parameters: {"_"=>"1288215019086", "id"=>"2"}
+  [4;35;1mIssue Load (1.0ms)[0m   [0mSELECT * FROM "issues" WHERE ("issues"."id" = 2) [0m
+Rendering issues/edit
+Completed in 15ms (View: 4, DB: 1) | 200 OK [http://localhost/issues/2/edit?_=1288215019086]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectPerformancesController#index (for 127.0.0.1 at 2010-10-28 03:00:38) [GET]
+  [4;35;1mProjectPerformance Load (1.0ms)[0m   [0mSELECT * FROM "project_performances" ORDER BY id[0m
+  [4;36;1mMilestone Load (1.0ms)[0m   [0;1mSELECT * FROM "milestones" ORDER BY id[0m
+Rendering template within layouts/project_performances
+Rendering project_performances/index
+Completed in 50ms (View: 34, DB: 3) | 200 OK [http://localhost/project_performances]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-10-28 03:00:39) [GET]
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" ORDER BY id[0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 41ms (View: 31, DB: 1) | 200 OK [http://localhost/projects]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET standard_conforming_strings = on[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-10-28 03:00:48) [POST]
+  Parameters: {"authenticity_token"=>"JkN9JkEozcDdF7sjs5Y1H1o2vIWuG/m2OL7K5zh4ay0=", "project"=>{"name"=>"Project2", "location"=>"chennai"}}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT "projects".id FROM "projects" WHERE (LOWER("projects"."name") = 'project2') LIMIT 1[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO "projects" ("name", "location", "created_at", "updated_at") VALUES('Project2', 'chennai', '2010-10-27 21:30:48.676679', '2010-10-27 21:30:48.676679') RETURNING "id"[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/projects?id=1
+Completed in 38ms (DB: 23) | 302 Found [http://localhost/projects]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET standard_conforming_strings = on[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-10-28 03:00:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProject Load (2.0ms)[0m   [0mSELECT * FROM "projects" ORDER BY id[0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 22ms (View: 11, DB: 3) | 200 OK [http://localhost/projects?id=1]

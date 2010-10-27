@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Project performance</title>
+  <%= stylesheet_link_tag 'layout' %>
+  <%= stylesheet_link_tag 'addhoc' %>
+  <%= javascript_include_tag "jquery-1.4.3.min" %>
+  <%= javascript_include_tag "jquery.color" %>
+  <%= javascript_include_tag "projectperformance" + controller.action_name %>
+</head>
+<body>
+
+	<div id="page-container">
+
+		<div id="branding">
+
+
+			<h1>SEW <span>| project dashboard</span></h1>
+
+		</div><!-- end branding -->
+
+        <div id="page-navigation" class="clearfix">
+
+			<ul>
+				<li><a href="#">Dashboard</a></li>
+				<li><%= link_to "Projects", projects_path %></li>
+				<li class="current"><%= link_to "Project Details",project_performances_path %></li>
+                <li><%= link_to "Issues and Risks",issues_path %></li>
+				<li><a href="#">Materials</a></li>
+				<li><a href="#">Users</a></li>
+			</ul>
+
+		</div><!-- end page-navigation -->
+
+
+		<div id="page-content" class="clearfix">
+
+            <%= yield %>
+
+		</div><!-- end page-content -->
+
+		<div id="page-footer">
+
+
+
+		</div><!-- end page-footer -->
+
+	</div><!-- end page-container -->
+</body>
+</html>
+

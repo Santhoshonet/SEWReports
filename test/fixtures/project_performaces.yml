@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  month: 2010-10-27
+  pv: 1
+  lrecontrol: 1
+  lrepmc: 1
+  contractorindex: 1.5
+  cpi: 1.5
+  spi: 1.5
+
+two:
+  month: 2010-10-27
+  pv: 1
+  lrecontrol: 1
+  lrepmc: 1
+  contractorindex: 1.5
+  cpi: 1.5
+  spi: 1.5

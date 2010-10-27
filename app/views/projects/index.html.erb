@@ -1,0 +1,57 @@
+<h1>Project list</h1>
+    <h2>Group title goes here <span>(short description)</span></h2>
+    <div class="inner-box clearfix">
+		<div id="table-full">
+			<table cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr class="header">
+						<td>Project name</td>
+						<td>Location</td>
+                        <td>Action</td>
+					</tr>
+                    <% @projects.each_with_index do |project,index| %>
+                        <% if index%2 == 0 %>
+                            <tr class="alternate">
+                        <% else %>
+                            <tr>
+                        <% end %>
+						    <td><%=h project.name %></td>
+                            <td><%=h project.location %></td>
+                            <td class="actions" projid='<%= project.id %>'><%= link_to 'Edit',edit_project_path(project),:class => "edit" %></td>
+					    </tr>
+                    <% end %>
+                   <tr class="new-item">
+                        <td colspan="3" class="new">
+                            <a href="#" class="edit" id="LnkAddNewProject">Add new project</a>
+                        </td>
+                    </tr>
+                    <% form_for(@project) do |f| %>
+                        <% unless flash[:error].nil? %>
+                            <tr class="new-item form error new-project">
+                              <td colspan="3">
+                                <div class="error">
+                                    <%= flash[:error] %>
+                                </div>
+                              </td>
+                            </tr>
+                        <% end %>
+                        <tr class="new-item form new-project">
+                            <td class="data-entry">
+                                <%= f.label :name %>
+                                <%= f.text_field :name, :class => "medium" %>
+                            </td>
+                            <td class="data-entry" colspan="2">
+                                <%= f.label :location %>
+                                <%= f.text_field :location, :class => "medium" %>
+                            </td>
+                        </tr>
+                        <tr class="new-item form new-project">
+        	                <td class="submit" colspan="3">
+                                <button>Add project</button> or <a href="#" id="CancelAddProject">Cancel</a>
+                            </td>
+                        </tr>
+                     <% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>

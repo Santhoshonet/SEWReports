@@ -1,0 +1,55 @@
+<% form_for(@project_performance) do |f| %>
+   <table cellspacing="0" cellpadding="0" class="edit-table">
+    <tr class="new-item form error" style='display:none;'>
+        <td colspan="2">
+            <div class="error">
+                <%= flash[:error] %>
+                <%= f.error_messages %>
+            </div>
+        </td>
+    </tr>
+    <tr class="new-item form new-project-detail">
+        <td class="data-entry">
+            <label>Month</label>
+            <%= f.text_field :month, :class => "medium monthField" %>
+        </td>
+        <td class="data-entry">
+            <label>Planned Value</label>
+            <%= f.text_field :pv, :class => "medium pvField" %>
+        </td>
+    </tr>
+    <tr class="new-item form new-project-detail">
+        <td class="data-entry">
+            <label>LRE Contract</label>
+            <%= f.text_field :lrecontract, :class => "medium lrecField" %>
+        </td>
+        <td class="data-entry">
+            <label>LRE PMC</label>
+            <%= f.text_field :lrepmc, :class => "medium lrepField" %>
+        </td>
+    </tr>
+    <tr class="new-item form new-project-detail">
+        <td class="data-entry">
+            <label>Contract Index</label>
+            <%= f.text_field :contractindex, :class => "medium ciField" %>
+        </td>
+        <td class="data-entry">
+            <label>CPI</label>
+            <%= f.text_field :cpi, :class => "medium cpiField" %>
+        </td>
+    </tr>
+    <tr class="new-item form new-project-detail">
+        <td class="data-entry">
+            <label>SPI</label>
+            <%= f.text_field :spi, :class => "medium spiField" %>
+        </td>
+        <td class="data-entry">
+        </td>
+    </tr>
+    <tr>
+        <td class="submit" colspan="2">
+            <button class='BtnEditProjectDetail' projdetid=<%= @project_performance.id %>>Edit project detail</button> or <a href="#" class="CancelEditProjectDetail">Cancel</a>
+        </td>
+    </tr>
+   </table>
+  <% end %>

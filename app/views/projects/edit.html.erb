@@ -1,0 +1,27 @@
+  <% form_for(@project) do |f| %>
+   <table cellspacing="0" cellpadding="0" class="edit-table">
+    <tr class="new-item form error" style='display:none;'>
+        <td colspan="2">
+            <div class="error">
+                <%= flash[:error] %>
+                <%= f.error_messages %>
+            </div>
+        </td>
+    </tr>
+    <tr class="new-item form">
+        <td class="data-entry">
+            <%= f.label :name %>
+            <%= f.text_field :name, :class => "medium nameField" %>
+        </td>
+        <td class="data-entry">
+            <%= f.label :location %>
+            <%= f.text_field :location, :class => "medium locationField" %>
+        </td>
+    </tr>
+    <tr>
+        <td class="submit" colspan="2">
+            <button class='BtnEditProject' projid=<%= @project.id %>>Edit project</button> or <a href="#" class="CancelAddProject">Cancel</a>
+        </td>
+    </tr>
+   </table>
+  <% end %>

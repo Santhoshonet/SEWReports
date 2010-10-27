@@ -1,0 +1,203 @@
+<h1>Issues and Risks</h1>
+    <h2>Issues<span></span></h2>
+    <div class="inner-box clearfix">
+		<div id="table-full">
+			<table cellspacing="0" cellpadding="0" class="Tblissue">
+				<tbody>
+					<tr class="header">
+						<td>Month</td>
+					    <td>Active</td>
+						<td>Closed</td>
+						<td>Action</td>
+					</tr>
+                    <% @issues.each_with_index do |issue,index| %>
+                        <% if index%2 == 0 %>
+                            <tr class="alternate">
+                        <% else %>
+                            <tr>
+                        <% end %>
+                            <td><%=h issue.month.strftime("%b - %Y") %></td>
+						    <td><%=h issue.active %></td>
+                            <td><%=h issue.closed %></td>
+                            <td class="actions" issueid='<%= issue.id %>'><%= link_to 'Edit',edit_issue_path(issue),:class => "edit" %></td>
+					    </tr>
+                    <% end %>
+                   <tr class="new-item">
+                        <td colspan="4" class="new">
+                            <a href="#" class="edit" id="LnkAddNewIssue">Add new issue</a>
+                        </td>
+                    </tr>
+                    <% form_for(@issue) do |f| %>
+                        <% unless flash[:error].nil? %>
+                            <tr class="new-item form error new-issue">
+                              <td colspan="4">
+                                <div class="error">
+                                    <%= flash[:error] %>
+                                </div>
+                              </td>
+                            </tr>
+                        <% end %>
+                        <tr class="new-item form new-issue">
+                            <td class="data-entry" colspan="2">
+                                <label>Month</label>
+                                <%= f.text_field :month, :class => "medium" %>
+                            </td>
+                            <td class="data-entry" colspan="2">
+                                <label>Active</label>
+                                <%= f.text_field :active, :class => "medium" %>
+                            </td>
+                        </tr>
+                        <tr class="new-item form new-issue">
+                            <td class="data-entry" colspan="2">
+                                <label>Closed</label>
+                                <%= f.text_field :closed, :class => "medium" %>
+                            </td>
+                            <td class="data-entry" colspan="2">
+                            </td>
+                        <tr class="new-item form new-issue">
+        	                <td class="submit" colspan="4">
+                                <button>Add issue</button> or <a href="#" id="CancelAddIssue">Cancel</a>
+                            </td>
+                        </tr>
+                     <% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+
+
+    <h2>Risks<span></span></h2>
+    <div class="inner-box clearfix">
+		<div id="table-full">
+			<table cellspacing="0" cellpadding="0" class="Tblrisks">
+				<tbody>
+					<tr class="header">
+						<td>Month</td>
+					    <td>Active</td>
+						<td>Closed</td>
+						<td>Action</td>
+					</tr>
+                    <% @risks.each_with_index do |risk,index| %>
+                        <% if index%2 == 0 %>
+                            <tr class="alternate">
+                        <% else %>
+                            <tr>
+                        <% end %>
+                            <td><%=h risk.month.strftime("%b - %Y") %></td>
+                            <td><%=h risk.active %></td>
+						    <td><%=h risk.closed  %></td>
+                            <td class="actions" riskid='<%= risk.id %>'><%= link_to 'Edit',edit_risk_path(risk),:class => "edit" %></td>
+					    </tr>
+                    <% end %>
+                   <tr class="new-item">
+                        <td colspan="4" class="new">
+                            <a href="#" class="edit" id="LnkAddNewRisk">Add new risk</a>
+                        </td>
+                    </tr>
+                    <% form_for(@risk) do |f| %>
+                        <% unless flash[:error].nil? %>
+                            <tr class="new-item form error new-risk">
+                              <td colspan="4">
+                                <div class="error">
+                                    <%= flash[:error] %>
+                                </div>
+                              </td>
+                            </tr>
+                        <% end %>
+                        <tr class="new-item form new-risk">
+                            <td class="data-entry" colspan="2">
+                                <label>Month</label>
+                                <%= f.text_field :month, :class => "medium" %>
+                            </td>
+                            <td class="data-entry" colspan="2">
+                                <label>Active</label>
+                                <%= f.text_field :active, :class => "medium" %>
+                            </td>
+                        </tr>
+                        <tr class="new-item form new-risk">
+                            <td class="data-entry" colspan="2">
+                                <label>Closed</label>
+                                <%= f.text_field :closed, :class => "medium" %>
+                            </td>
+                            <td class="data-entry" colspan="2">
+                            </td>
+                        <tr class="new-item form new-risk">
+        	                <td class="submit" colspan="4">
+                                <button>Add risk</button> or <a href="#" id="CancelAddRisk">Cancel</a>
+                            </td>
+                        </tr>
+                     <% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+
+    <h2>Quality and HSC Index<span></span></h2>
+    <div class="inner-box clearfix">
+		<div id="table-full">
+			<table cellspacing="0" cellpadding="0" class="Tblqualityhsc">
+				<tbody>
+					<tr class="header">
+						<td>Month</td>
+					    <td>Quality Index</td>
+						<td>HSC Index</td>
+						<td>Action</td>
+					</tr>
+                    <% @qualityhscindices.each_with_index do |qualityhscindex,index| %>
+                        <% if index%2 == 0 %>
+                            <tr class="alternate">
+                        <% else %>
+                            <tr>
+                        <% end %>
+                            <td><%=h qualityhscindex.month.strftime("%b - %Y") %></td>
+                            <td><%=h qualityhscindex.qualityindex %></td>
+						    <td><%=h qualityhscindex.hscindex  %></td>
+                            <td class="actions" qualityhscid='<%= qualityhscindex.id %>'><%= link_to 'Edit',edit_qualityhscindex_path(qualityhscindex),:class => "edit" %></td>
+					    </tr>
+                    <% end %>
+                   <tr class="new-item">
+                        <td colspan="4" class="new">
+                            <a href="#" class="edit" id="LnkAddQualityHsc">Add new Quality and HSC index</a>
+                        </td>
+                    </tr>
+                    <% form_for(@risk) do |f| %>
+                        <% unless flash[:error].nil? %>
+                            <tr class="new-item form error new-qualityhsc">
+                              <td colspan="4">
+                                <div class="error">
+                                    <%= flash[:error] %>
+                                </div>
+                              </td>
+                            </tr>
+                        <% end %>
+                        <tr class="new-item form new-qualityhsc">
+                            <td class="data-entry" colspan="2">
+                                <label>Month</label>
+                                <%= f.text_field :month, :class => "medium" %>
+                            </td>
+                            <td class="data-entry" colspan="2">
+                                <label>Quality Index</label>
+                                <%= f.text_field :active, :class => "medium" %>
+                            </td>
+                        </tr>
+                        <tr class="new-item form new-qualityhsc">
+                            <td class="data-entry" colspan="2">
+                                <label>HSC Index</label>
+                                <%= f.text_field :closed, :class => "medium" %>
+                            </td>
+                            <td class="data-entry" colspan="2">
+                            </td>
+                        <tr class="new-item form new-qualityhsc">
+        	                <td class="submit" colspan="4">
+                                <button>Add risk</button> or <a href="#" id="CancelAddQualityHsc">Cancel</a>
+                            </td>
+                        </tr>
+                     <% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>

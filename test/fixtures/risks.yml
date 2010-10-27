@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  month: 2010-10-28
+  active: 1
+  closed: 1
+
+two:
+  month: 2010-10-28
+  active: 1
+  closed: 1

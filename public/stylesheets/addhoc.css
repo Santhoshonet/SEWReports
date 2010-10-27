@@ -1,0 +1,11 @@
+.edit-table
+{
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+}
+
+.edit-td
+{
+    border-bottom: 1px solid #CDCDCD;
+}
